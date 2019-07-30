@@ -12,7 +12,7 @@ class Team extends Model {
         slug: 'name'
       },
       strategy: 'dbIncrement',
-      disableUpdates: false
+      disableUpdates: true
     })
   }
 
